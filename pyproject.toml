@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "chat-kindness"
+version = "0.1.0"
+description = ""
+authors = ["Jan Olaf Eriksen"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pylint = "^3.0.2"
+mypy = "^1.6.1"
+numpy = "^1.26.1"
+pandas = "^2.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+mypy = "^1.6.1"
+pylint = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
